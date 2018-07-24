@@ -38,6 +38,7 @@ class Container extends Component {
       'https://api.mcmakler.de/v1/advertisements'
     );
     const data = rawData.data.data;
+    const first10 = data.slice(0, 10);
     debugger;
   }
 
