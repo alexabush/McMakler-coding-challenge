@@ -1,0 +1,64 @@
+.House {
+  border: 1px solid grey;
+}
+
+.House__container--image {
+  height: 200px;
+  position: relative;
+}
+
+.House__h2 {
+  margin: 0px;
+  padding: 0px;
+  border-radius: 3px;
+  background: lightblue;
+  padding: 10px 15px;
+  font-size: 16px;
+  color: grey;
+  position: absolute;
+  top: 25px;
+  left: 20px;
+}
+
+.House__img {
+}
+
+.House__container--text {
+  padding: 40px;
+}
+
+.House__container--text:first-letter {
+  text-transform: capitalize;
+}
+
+.House__container--tags {
+}
+
+.House__container--tags {
+  color: grey;
+}
+
+.House__container--info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.House__container--info > p {
+  font-weight: 600;
+}
+
+.House__container--additional-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: grey;
+}
+
+.House__container--additional-info p {
+  margin: 0;
+  padding: 5px 15px;
+}
+
+.House__container--additional-info p:first-of-type {
+  border-right: 1px solid grey;
+}
